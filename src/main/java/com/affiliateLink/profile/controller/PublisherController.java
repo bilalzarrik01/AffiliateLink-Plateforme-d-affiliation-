@@ -36,6 +36,7 @@ public class PublisherController {
     }
 
     @GetMapping
+    @ResponseStatus
     public List<PublisherResponse> getAllPublishers() {
         return publisherService.getAllPublishers();
     }

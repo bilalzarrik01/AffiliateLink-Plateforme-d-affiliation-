@@ -18,6 +18,11 @@ public class GlobalExceptionHandler {
 public String handlePublisherNotFound(PublisherNotFoundException ex) {
     return ex.getMessage();
 }
+@ExceptionHandler(AdvertiserNotFoundException.class)
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public String advertiserNotFoundException(AdvertiserNotFoundException ex) {
+    return ex.getMessage();
+}
 
 
 }
