@@ -9,20 +9,31 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
     @ExceptionHandler(EmailAlreadyExistsException.class)
     @ResponseStatus(HttpStatus.CONFLICT)
-    String handleEmailAlreadyExists(EmailAlreadyExistsException ex){
+    String handleEmailAlreadyExists(EmailAlreadyExistsException ex) {
         return ex.getMessage();
     }
-    
-@ExceptionHandler(PublisherNotFoundException.class)
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public String handlePublisherNotFound(PublisherNotFoundException ex) {
-    return ex.getMessage();
-}
-@ExceptionHandler(AdvertiserNotFoundException.class)
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public String advertiserNotFoundException(AdvertiserNotFoundException ex) {
-    return ex.getMessage();
-}
 
+    @ExceptionHandler(PublisherNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public String handlePublisherNotFound(PublisherNotFoundException ex) {
+        return ex.getMessage();
+    }
+
+    @ExceptionHandler(AdvertiserNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public String advertiserNotFoundException(AdvertiserNotFoundException ex) {
+        return ex.getMessage();
+    }
+
+    @ExceptionHandler(ProfileNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public String profileNotFoundException(ProfileNotFoundException ex) {
+        return ex.getMessage();
+    }
+    @ExceptionHandler(InvalidStatusTransitionException.class)
+    @ResponseStatus(HttpStatus.CONFLICT)
+    public String invalidStatusTransitionException(InvalidStatusTransitionException ex){
+        return ex.getMessage();
+    }
 
 }
