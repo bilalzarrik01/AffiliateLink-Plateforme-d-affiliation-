@@ -2,7 +2,9 @@ package com.affiliateLink.profile.service;
 
 import org.springframework.stereotype.Service;
 
+import com.affiliateLink.common.exception.AdvertiserNotFoundException;
 import com.affiliateLink.profile.ProfileApi;
+import com.affiliateLink.profile.entity.Advertiser;
 import com.affiliateLink.profile.entity.ProfileStatus;
 import com.affiliateLink.profile.repository.AdvertiserRepository;
 
@@ -15,10 +17,15 @@ public class ProfileApiImpl implements ProfileApi {
         this.advertiserRepository = advertiserRepository;
     }
 
-    @Override
-    public boolean isAdvertiserActive(Long advertiserId) {
-    return   advertiserRepository.findById(advertiserId).map(a->a.getStatus() == ProfileStatus.ACTIVE).orElse(false);
-        
-    }
+ @Override
+public boolean isAdvertiserActive(Long advertiserId) {
+
+    Advertiser advertiser = advertiserRepository.findById(advertiserId)
+        .orElseThrow(() -> new AdvertiserNotFoundException(
+            "Advertiser not found: " + advertiserId
+        ));
+
+    return advertiser.getStatus() == ProfileStatus.ACTIVE;
+}
     
 }

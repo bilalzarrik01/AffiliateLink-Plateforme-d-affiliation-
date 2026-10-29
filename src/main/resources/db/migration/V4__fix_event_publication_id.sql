@@ -1,0 +1,2 @@
+ALTER TABLE event_publication
+MODIFY COLUMN id BINARY(16) NOT NULL;

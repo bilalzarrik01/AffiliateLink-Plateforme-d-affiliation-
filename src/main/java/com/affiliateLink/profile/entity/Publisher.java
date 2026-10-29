@@ -1,5 +1,7 @@
 package com.affiliateLink.profile.entity;
 
+import com.affiliateLink.profile.Niche;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity ;
 import jakarta.persistence.EnumType;

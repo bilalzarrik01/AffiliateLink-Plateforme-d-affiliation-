@@ -1,6 +1,6 @@
 package com.affiliateLink.profile.dto;
 
-import com.affiliateLink.profile.entity.Niche;
+import com.affiliateLink.profile.Niche;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
