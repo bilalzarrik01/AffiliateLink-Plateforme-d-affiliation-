@@ -1,5 +1,7 @@
 package com.affiliateLink.common.exception;
 
+import java.util.NoSuchElementException;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -35,5 +37,16 @@ public class GlobalExceptionHandler {
     public String invalidStatusTransitionException(InvalidStatusTransitionException ex){
         return ex.getMessage();
     }
+    @ExceptionHandler(NoSuchElementException.class)
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public String handleNotFound(NoSuchElementException ex) {
+    return ex.getMessage();
+}
+
+@ExceptionHandler(IllegalStateException.class)
+@ResponseStatus(HttpStatus.CONFLICT)
+public String handleIllegalState(IllegalStateException ex) {
+    return ex.getMessage();
+}
 
 }

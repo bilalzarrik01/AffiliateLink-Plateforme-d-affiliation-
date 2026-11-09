@@ -62,6 +62,14 @@ private Set<Tag> tags = new HashSet<>();
         this.createdAt = LocalDateTime.now();
     }
 
+
+    public void update(String title, String description, String landingUrl, Niche niche) {
+    this.title = title;
+    this.description = description;
+    this.landingUrl = landingUrl;
+    this.niche = niche;
+}
+
     public Long getId() {
         return id;
     }
@@ -89,6 +97,9 @@ private Set<Tag> tags = new HashSet<>();
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
+    public List<Campaign> getCampaigns() {
+    return campaigns;
+}
     public Set<Tag> getTags() {
     return tags;
 }
