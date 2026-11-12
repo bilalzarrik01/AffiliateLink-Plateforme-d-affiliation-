@@ -1,4 +1,4 @@
-package com.affiliateLink.common.exception;
+package com.affiliatelink.common.exception;
 
 import java.util.NoSuchElementException;
 
@@ -48,5 +48,6 @@ public String handleNotFound(NoSuchElementException ex) {
 public String handleIllegalState(IllegalStateException ex) {
     return ex.getMessage();
 }
+
 
 }

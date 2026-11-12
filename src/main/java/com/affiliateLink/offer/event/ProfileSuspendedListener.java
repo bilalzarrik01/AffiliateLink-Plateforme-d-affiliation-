@@ -1,15 +1,15 @@
-package com.affiliateLink.offer.event;
+package com.affiliatelink.offer.event;
 
 import java.util.List;
 
 import org.springframework.modulith.events.ApplicationModuleListener;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 
-import com.affiliateLink.profile.ProfileSuspended;
-import com.affiliateLink.offer.entity.Campaign;
-import com.affiliateLink.offer.entity.CampaignStatus;
-import com.affiliateLink.offer.repository.CampaignRepository;
+
+import com.affiliatelink.profile.ProfileSuspended;
+import com.affiliatelink.offer.entity.Campaign;
+import com.affiliatelink.offer.entity.CampaignStatus;
+import com.affiliatelink.offer.repository.CampaignRepository;
 
 @Component
 public class ProfileSuspendedListener {
@@ -21,7 +21,7 @@ public class ProfileSuspendedListener {
     }
 
     @ApplicationModuleListener
-    @Transactional
+   
     public void on(ProfileSuspended event) {
 
         List<Campaign> campaigns = campaignRepository

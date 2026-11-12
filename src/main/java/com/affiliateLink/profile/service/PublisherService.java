@@ -1,4 +1,4 @@
-package com.affiliateLink.profile.service;
+package com.affiliatelink.profile.service;
 
 import java.util.List;
 
@@ -6,12 +6,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.affiliateLink.profile.repository.ProfileRepository;
-import com.affiliateLink.profile.repository.PublisherRepository;
-import com.affiliateLink.common.exception.EmailAlreadyExistsException;
-import com.affiliateLink.common.exception.PublisherNotFoundException;
-import com.affiliateLink.profile.dto.*;
-import com.affiliateLink.profile.entity.Publisher;
+import com.affiliatelink.profile.repository.ProfileRepository;
+import com.affiliatelink.profile.repository.PublisherRepository;
+import com.affiliatelink.common.exception.EmailAlreadyExistsException;
+import com.affiliatelink.common.exception.PublisherNotFoundException;
+import com.affiliatelink.profile.dto.*;
+import com.affiliatelink.profile.entity.Publisher;
 
 @Service
 public class PublisherService {

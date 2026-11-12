@@ -1,6 +1,6 @@
-package com.affiliateLink.profile.entity;
+package com.affiliatelink.profile.entity;
 
-import com.affiliateLink.profile.Niche;
+import com.affiliatelink.profile.Niche;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity ;

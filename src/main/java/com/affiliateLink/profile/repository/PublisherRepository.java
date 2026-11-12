@@ -1,8 +1,8 @@
-package com.affiliateLink.profile.repository;
+package com.affiliatelink.profile.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.affiliateLink.profile.entity.Publisher;
+import com.affiliatelink.profile.entity.Publisher;
 
 public interface PublisherRepository extends JpaRepository<Publisher , Long>{
 

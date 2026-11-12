@@ -1,7 +1,7 @@
-package com.affiliateLink.profile.dto ;
+package com.affiliatelink.profile.dto ;
 
 
-import com.affiliateLink.profile.entity.ProfileStatus;
+import com.affiliatelink.profile.entity.ProfileStatus;
 
 import jakarta.validation.constraints.NotNull;
 

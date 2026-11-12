@@ -1,14 +1,14 @@
-package com.affiliateLink.profile.service;
+package com.affiliatelink.profile.service;
 
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
-import com.affiliateLink.common.exception.InvalidStatusTransitionException;
-import com.affiliateLink.common.exception.ProfileNotFoundException;
-import com.affiliateLink.profile.ProfileSuspended;
-import com.affiliateLink.profile.entity.Profile;
-import com.affiliateLink.profile.entity.ProfileStatus;
-import com.affiliateLink.profile.repository.ProfileRepository;
+import com.affiliatelink.common.exception.InvalidStatusTransitionException;
+import com.affiliatelink.common.exception.ProfileNotFoundException;
+import com.affiliatelink.profile.ProfileSuspended;
+import com.affiliatelink.profile.entity.Profile;
+import com.affiliatelink.profile.entity.ProfileStatus;
+import com.affiliatelink.profile.repository.ProfileRepository;
 
 import jakarta.transaction.Transactional;
 

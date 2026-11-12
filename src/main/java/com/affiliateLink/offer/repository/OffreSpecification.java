@@ -1,9 +1,9 @@
-package com.affiliateLink.offer.repository;
+package com.affiliatelink.offer.repository;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import com.affiliateLink.offer.entity.Offre;
-import com.affiliateLink.profile.Niche;
+import com.affiliatelink.offer.entity.Offre;
+import com.affiliatelink.profile.Niche;
 
 public class OffreSpecification {
 

@@ -1,21 +1,21 @@
 
-package com.affiliateLink.offer.service;
+package com.affiliatelink.offer.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.affiliateLink.offer.dto.CreateCampaignRequest;
-import com.affiliateLink.offer.dto.CampaignResponse;
-import com.affiliateLink.offer.entity.Campaign;
-import com.affiliateLink.offer.entity.Offre;
-import com.affiliateLink.offer.mapper.OffreMapper;
-import com.affiliateLink.offer.repository.CampaignRepository;
-import com.affiliateLink.offer.repository.OffreRepository;
-import com.affiliateLink.profile.ProfileApi;
+import com.affiliatelink.offer.dto.CreateCampaignRequest;
+import com.affiliatelink.offer.dto.CampaignResponse;
+import com.affiliatelink.offer.entity.Campaign;
+import com.affiliatelink.offer.entity.Offre;
+import com.affiliatelink.offer.mapper.OffreMapper;
+import com.affiliatelink.offer.repository.CampaignRepository;
+import com.affiliatelink.offer.repository.OffreRepository;
+import com.affiliatelink.profile.ProfileApi;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-import com.affiliateLink.offer.entity.CampaignStatus;
+import com.affiliatelink.offer.entity.CampaignStatus;
 
 @Service
 public class CampaignService {

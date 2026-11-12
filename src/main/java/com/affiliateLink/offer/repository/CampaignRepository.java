@@ -1,10 +1,10 @@
-package com.affiliateLink.offer.repository;
+package com.affiliatelink.offer.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
-import com.affiliateLink.offer.entity.Campaign;
-import com.affiliateLink.offer.entity.CampaignStatus;
+import com.affiliatelink.offer.entity.Campaign;
+import com.affiliatelink.offer.entity.CampaignStatus;
 
 
 public interface CampaignRepository extends JpaRepository<Campaign , Long> {

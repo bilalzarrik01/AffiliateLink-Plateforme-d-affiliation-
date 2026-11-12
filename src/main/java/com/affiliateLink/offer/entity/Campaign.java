@@ -1,5 +1,5 @@
 
-package com.affiliateLink.offer.entity;
+package com.affiliatelink.offer.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

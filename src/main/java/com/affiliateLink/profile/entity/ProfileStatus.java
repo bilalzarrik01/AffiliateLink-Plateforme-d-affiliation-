@@ -1,4 +1,4 @@
-package com.affiliateLink.profile.entity;
+package com.affiliatelink.profile.entity;
 
 public enum ProfileStatus {
     PENDING,

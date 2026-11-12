@@ -1,8 +1,8 @@
-package com.affiliateLink.offer.dto;
+package com.affiliatelink.offer.dto;
 
 import java.util.Set;
 
-import com.affiliateLink.profile.Niche;
+import com.affiliatelink.profile.Niche;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

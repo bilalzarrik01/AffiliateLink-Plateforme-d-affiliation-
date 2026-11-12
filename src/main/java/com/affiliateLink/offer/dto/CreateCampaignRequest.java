@@ -1,9 +1,9 @@
-package com.affiliateLink.offer.dto;
+package com.affiliatelink.offer.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import com.affiliateLink.offer.entity.PayoutModel;
+import com.affiliatelink.offer.entity.PayoutModel;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

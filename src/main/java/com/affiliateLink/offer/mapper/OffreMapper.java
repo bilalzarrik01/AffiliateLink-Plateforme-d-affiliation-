@@ -1,14 +1,14 @@
-package com.affiliateLink.offer.mapper;
+package com.affiliatelink.offer.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import com.affiliateLink.offer.entity.Campaign;
-import com.affiliateLink.offer.entity.Offre;
-import com.affiliateLink.offer.entity.Tag;
-import com.affiliateLink.offer.dto.CampaignResponse;
-import com.affiliateLink.offer.dto.OffreDetailResponse;
-import com.affiliateLink.offer.dto.OffreResponse;
+import com.affiliatelink.offer.entity.Campaign;
+import com.affiliatelink.offer.entity.Offre;
+import com.affiliatelink.offer.entity.Tag;
+import com.affiliatelink.offer.dto.CampaignResponse;
+import com.affiliatelink.offer.dto.OffreDetailResponse;
+import com.affiliatelink.offer.dto.OffreResponse;
 
 @Mapper(componentModel = "spring")
 public interface OffreMapper {

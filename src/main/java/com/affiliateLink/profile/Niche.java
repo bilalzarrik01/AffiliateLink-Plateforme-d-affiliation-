@@ -1,4 +1,4 @@
-package com.affiliateLink.profile;
+package com.affiliatelink.profile;
 
 public enum  Niche {
     BEAUTY ,

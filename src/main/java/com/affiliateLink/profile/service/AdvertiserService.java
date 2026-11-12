@@ -1,17 +1,17 @@
 
-package com.affiliateLink.profile.service;
+package com.affiliatelink.profile.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.affiliateLink.common.exception.AdvertiserNotFoundException;
-import com.affiliateLink.common.exception.EmailAlreadyExistsException;
-import com.affiliateLink.profile.dto.AdvertiserResponse;
-import com.affiliateLink.profile.dto.CreateAdvertiserRequest;
-import com.affiliateLink.profile.entity.Advertiser;
-import com.affiliateLink.profile.repository.AdvertiserRepository;
-import com.affiliateLink.profile.repository.ProfileRepository;
+import com.affiliatelink.common.exception.AdvertiserNotFoundException;
+import com.affiliatelink.common.exception.EmailAlreadyExistsException;
+import com.affiliatelink.profile.dto.AdvertiserResponse;
+import com.affiliatelink.profile.dto.CreateAdvertiserRequest;
+import com.affiliatelink.profile.entity.Advertiser;
+import com.affiliatelink.profile.repository.AdvertiserRepository;
+import com.affiliatelink.profile.repository.ProfileRepository;
 
 @Service
 public class AdvertiserService {

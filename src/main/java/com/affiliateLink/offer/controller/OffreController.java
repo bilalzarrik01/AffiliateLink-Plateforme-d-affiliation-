@@ -1,4 +1,4 @@
-package com.affiliateLink.offer.controller;
+package com.affiliatelink.offer.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,15 +14,15 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.affiliateLink.offer.dto.CampaignResponse;
-import com.affiliateLink.offer.dto.CreateCampaignRequest;
-import com.affiliateLink.offer.dto.CreateOffreRequest;
-import com.affiliateLink.offer.dto.OffreDetailResponse;
-import com.affiliateLink.offer.dto.OffreResponse;
-import com.affiliateLink.offer.dto.UpdateOffreRequest;
-import com.affiliateLink.offer.service.CampaignService;
-import com.affiliateLink.offer.service.OffreService;
-import com.affiliateLink.profile.Niche;
+import com.affiliatelink.offer.dto.CampaignResponse;
+import com.affiliatelink.offer.dto.CreateCampaignRequest;
+import com.affiliatelink.offer.dto.CreateOffreRequest;
+import com.affiliatelink.offer.dto.OffreDetailResponse;
+import com.affiliatelink.offer.dto.OffreResponse;
+import com.affiliatelink.offer.dto.UpdateOffreRequest;
+import com.affiliatelink.offer.service.CampaignService;
+import com.affiliatelink.offer.service.OffreService;
+import com.affiliatelink.profile.Niche;
 
 import jakarta.validation.Valid;
 

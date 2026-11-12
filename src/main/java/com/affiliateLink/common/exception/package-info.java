@@ -1,4 +1,4 @@
 @NamedInterface("exceptions")
-package com.affiliateLink.common.exception;
+package com.affiliatelink.common.exception;
 
 import org.springframework.modulith.NamedInterface;

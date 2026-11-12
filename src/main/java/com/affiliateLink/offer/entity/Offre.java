@@ -1,5 +1,5 @@
 
-package com.affiliateLink.offer.entity;
+package com.affiliatelink.offer.entity;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 import jakarta.persistence.*;
-import com.affiliateLink.profile.Niche;
+import com.affiliatelink.profile.Niche;
 
 @Entity
 @Table(name = "offer_offres")

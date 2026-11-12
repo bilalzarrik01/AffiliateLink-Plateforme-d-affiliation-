@@ -1,9 +1,9 @@
-package com.affiliateLink.offer.dto;
+package com.affiliatelink.offer.dto;
 
 import java.time.LocalDateTime;
 import java.util.Set;
 
-import com.affiliateLink.profile.Niche;
+import com.affiliatelink.profile.Niche;
 
 
 

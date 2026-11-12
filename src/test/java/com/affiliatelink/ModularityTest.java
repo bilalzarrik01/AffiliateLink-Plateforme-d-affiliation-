@@ -2,7 +2,7 @@ package com.affiliatelink;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.modulith.core.ApplicationModules;
-import com.affiliateLink.AffiliatelinkApplication;
+import com.affiliatelink.AffiliatelinkApplication;
 
 public class ModularityTest {
     static ApplicationModules modules =

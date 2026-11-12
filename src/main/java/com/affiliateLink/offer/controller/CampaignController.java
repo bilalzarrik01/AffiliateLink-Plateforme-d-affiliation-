@@ -1,4 +1,4 @@
-package com.affiliateLink.offer.controller;
+package com.affiliatelink.offer.controller;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.affiliateLink.offer.dto.CampaignResponse;
-import com.affiliateLink.offer.entity.CampaignStatus;
-import com.affiliateLink.offer.service.CampaignService;
+import com.affiliatelink.offer.dto.CampaignResponse;
+import com.affiliatelink.offer.entity.CampaignStatus;
+import com.affiliatelink.offer.service.CampaignService;
 
 @RestController 
 @RequestMapping("/api/campaigns")

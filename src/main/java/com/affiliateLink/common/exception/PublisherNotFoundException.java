@@ -1,4 +1,4 @@
-package com.affiliateLink.common.exception;
+package com.affiliatelink.common.exception;
 
 public class PublisherNotFoundException extends RuntimeException {
 

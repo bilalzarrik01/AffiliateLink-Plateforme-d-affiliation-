@@ -1,12 +1,12 @@
-package com.affiliateLink.offer.service;
+package com.affiliatelink.offer.service;
 
 import java.util.Locale;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.affiliateLink.offer.entity.Tag;
-import com.affiliateLink.offer.repository.TagRepository;
+import com.affiliatelink.offer.entity.Tag;
+import com.affiliatelink.offer.repository.TagRepository;
 
 @Service
 public class TagService {

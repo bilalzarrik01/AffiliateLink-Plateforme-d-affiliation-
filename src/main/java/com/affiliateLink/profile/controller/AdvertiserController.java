@@ -1,8 +1,8 @@
-package com.affiliateLink.profile.controller;
+package com.affiliatelink.profile.controller;
 
-import com.affiliateLink.profile.dto.AdvertiserResponse;
-import com.affiliateLink.profile.dto.CreateAdvertiserRequest;
-import com.affiliateLink.profile.service.AdvertiserService;
+import com.affiliatelink.profile.dto.AdvertiserResponse;
+import com.affiliatelink.profile.dto.CreateAdvertiserRequest;
+import com.affiliatelink.profile.service.AdvertiserService;
 
 import jakarta.validation.Valid;
 

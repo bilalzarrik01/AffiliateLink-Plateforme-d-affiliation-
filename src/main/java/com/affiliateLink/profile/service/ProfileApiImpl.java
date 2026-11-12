@@ -1,12 +1,12 @@
-package com.affiliateLink.profile.service;
+package com.affiliatelink.profile.service;
 
 import org.springframework.stereotype.Service;
 
-import com.affiliateLink.common.exception.AdvertiserNotFoundException;
-import com.affiliateLink.profile.ProfileApi;
-import com.affiliateLink.profile.entity.Advertiser;
-import com.affiliateLink.profile.entity.ProfileStatus;
-import com.affiliateLink.profile.repository.AdvertiserRepository;
+import com.affiliatelink.common.exception.AdvertiserNotFoundException;
+import com.affiliatelink.profile.ProfileApi;
+import com.affiliatelink.profile.entity.Advertiser;
+import com.affiliatelink.profile.entity.ProfileStatus;
+import com.affiliatelink.profile.repository.AdvertiserRepository;
 
 @Service 
 public class ProfileApiImpl implements ProfileApi {

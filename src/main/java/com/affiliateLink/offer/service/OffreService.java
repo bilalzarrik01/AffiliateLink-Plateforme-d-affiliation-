@@ -1,21 +1,21 @@
-package com.affiliateLink.offer.service;
+package com.affiliatelink.offer.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.affiliateLink.offer.dto.CreateOffreRequest;
-import com.affiliateLink.offer.dto.OffreDetailResponse;
-import com.affiliateLink.offer.dto.OffreResponse;
-import com.affiliateLink.offer.dto.UpdateOffreRequest;
-import com.affiliateLink.offer.entity.Offre;
-import com.affiliateLink.offer.entity.Tag;
-import com.affiliateLink.offer.mapper.OffreMapper;
-import com.affiliateLink.offer.repository.OffreRepository;
-import com.affiliateLink.offer.repository.OffreSpecification;
-import com.affiliateLink.profile.Niche;
-import com.affiliateLink.profile.ProfileApi;
+import com.affiliatelink.offer.dto.CreateOffreRequest;
+import com.affiliatelink.offer.dto.OffreDetailResponse;
+import com.affiliatelink.offer.dto.OffreResponse;
+import com.affiliatelink.offer.dto.UpdateOffreRequest;
+import com.affiliatelink.offer.entity.Offre;
+import com.affiliatelink.offer.entity.Tag;
+import com.affiliatelink.offer.mapper.OffreMapper;
+import com.affiliatelink.offer.repository.OffreRepository;
+import com.affiliatelink.offer.repository.OffreSpecification;
+import com.affiliatelink.profile.Niche;
+import com.affiliatelink.profile.ProfileApi;
 
 @Service
 public class OffreService {

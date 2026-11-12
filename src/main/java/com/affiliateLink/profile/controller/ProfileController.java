@@ -1,4 +1,4 @@
-package com.affiliateLink.profile.controller;
+package com.affiliatelink.profile.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.affiliateLink.profile.dto.UpdateProfileStatusRequest;
-import com.affiliateLink.profile.service.ProfileService;
+import com.affiliatelink.profile.dto.UpdateProfileStatusRequest;
+import com.affiliatelink.profile.service.ProfileService;
 
 import jakarta.validation.Valid;
 

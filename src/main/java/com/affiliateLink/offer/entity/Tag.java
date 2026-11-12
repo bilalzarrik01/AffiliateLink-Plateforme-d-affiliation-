@@ -1,4 +1,4 @@
-package com.affiliateLink.offer.entity;
+package com.affiliatelink.offer.entity;
 
 import java.util.HashSet;
 import java.util.Set;
